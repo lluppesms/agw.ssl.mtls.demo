@@ -91,7 +91,7 @@ The AddClientCertHeader rewrite rule extracts the client certificate from the va
 
 [MS Learn: Overview of mutual authentication with Application Gateway](https://learn.microsoft.com/en-us/azure/application-gateway/mutual-authentication-overview?tabs=powershell)
 
-[Microsoft.ApiManagement service/certificates](https://learn.microsoft.com/en-us/azure/templates/microsoft.apimanagement/service/certificates?pivots=deployment-language-bicep)
+[APIM Reference: Microsoft.ApiManagement service/certificates](https://learn.microsoft.com/en-us/azure/templates/microsoft.apimanagement/service/certificates?pivots=deployment-language-bicep)
 
 [MS Q&A: Struggling with APIM deployments w/ Cert from Key Vault in Bicep](https://github.com/Azure/bicep/discussions/6248)
 
