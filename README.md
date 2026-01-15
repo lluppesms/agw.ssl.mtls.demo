@@ -4,11 +4,11 @@ This Bicep example project deploys an Azure Application Gateway configured for m
 
 ## Add some GitHub Copilot Agents
 
-I started by importing the Bicep agent instructions from [https://github.com/github/awesome-copilot/tree/main/agents](https://github.com/github/awesome-copilot/tree/main/agents)
+I started by importing the Bicep Coding Agent instructions from [the Awesome Copilot repo](https://github.com/github/awesome-copilot/tree/main/agents)
 
-## Starting Copilot prompt
+## My Copilot prompt
 
-Then I used this prompt to generate the Bicep code:
+I used this prompt to generate the Bicep code:
 
 ```text
 I need to create a fully bicep implementation of an Application Gateway.  The gateway will forward requests on to an existing APIM server, and will need to supply certificates in the rewrite rule.  An existing KeyVault will be used to store the certificate.  Please create bicep in the /infra/bicep folder that will do the following:
@@ -25,7 +25,7 @@ I added a few follow up prompts to refine the resulting code and ended up with t
 
 ---
 
-## The Resulting ReadME and Code...:
+## The Agent's Resulting ReadME and Code
 
 ## Features
 
