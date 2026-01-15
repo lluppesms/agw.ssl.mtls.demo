@@ -84,3 +84,19 @@ New-AzResourceGroupDeployment -ResourceGroupName rg-name -TemplateFile main.bice
 ### Rewrite Rules
 
 The AddClientCertHeader rewrite rule extracts the client certificate from the var_client_certificate server variable and adds it to the X-Client-Cert-Header request header.
+
+---
+
+## References
+
+[MS Learn: Overview of mutual authentication with Application Gateway](https://learn.microsoft.com/en-us/azure/application-gateway/mutual-authentication-overview?tabs=powershell)
+
+[Microsoft.ApiManagement service/certificates](https://learn.microsoft.com/en-us/azure/templates/microsoft.apimanagement/service/certificates?pivots=deployment-language-bicep)
+
+[MS Q&A: Struggling with APIM deployments w/ Cert from Key Vault in Bicep](https://github.com/Azure/bicep/discussions/6248)
+
+[Example: APIM Bicep](https://github.com/brwilkinson/AzureDeploymentFramework/blob/main/ADF/bicep/APIM-APIM.bicep#L268)
+
+[External: APIM Blog Example](https://ronaldbosma.github.io/blog/2024/02/19/validate-client-certificates-in-api-management-when-its-behind-an-application-gateway/)
+
+[Awesome Copilot Agents](https://github.com/github/awesome-copilot/tree/main/agents)
